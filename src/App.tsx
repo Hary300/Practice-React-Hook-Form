@@ -3,6 +3,7 @@ import ManyInputs from './components/0.2.ManyInputs';
 import FormSubmit from './components/0.3.FormSubmit';
 import BasicValidation from './components/0.4.BasicValidation';
 import ObjectStateForm from './components/0.5.ObjectStateForm';
+import ConfirmPassword from './components/0.6.ConfirmPassword';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <FormSubmit />
       <BasicValidation />
       <ObjectStateForm />
+      <ConfirmPassword />
     </div>
   );
 }
