@@ -5,7 +5,7 @@ export default function StateAndInput() {
 
   return (
     <div className='wrapper'>
-      <h2>level 0.1 State and Input</h2>
+      <h2>Level 0.1 State and Input</h2>
       <input
         type='text'
         placeholder='Username'

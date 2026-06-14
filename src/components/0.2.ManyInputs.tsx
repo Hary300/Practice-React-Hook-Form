@@ -14,7 +14,7 @@ export default function ManyInputs() {
 
   return (
     <div className='wrapper'>
-      <h2>level 0.2 Many Inputs</h2>
+      <h2>Level 0.2 Many Inputs</h2>
 
       <input
         type='email'
