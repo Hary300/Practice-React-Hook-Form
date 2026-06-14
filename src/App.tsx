@@ -4,6 +4,7 @@ import FormSubmit from './components/0.3.FormSubmit';
 import BasicValidation from './components/0.4.BasicValidation';
 import ObjectStateForm from './components/0.5.ObjectStateForm';
 import ConfirmPassword from './components/0.6.ConfirmPassword';
+import DynamicSkills from './components/0.7.DynamicFormThinking';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BasicValidation />
       <ObjectStateForm />
       <ConfirmPassword />
+      <DynamicSkills />
     </div>
   );
 }

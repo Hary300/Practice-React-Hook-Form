@@ -17,9 +17,17 @@ input {
 }
 
 button {
-  @apply p-2 rounded-lg bg-blue-600 text-white font-semibold cursor-pointer;
+  @apply w-full p-2 rounded-lg bg-blue-600 text-white font-semibold cursor-pointer;
 }
 
 .error-text {
   @apply text-red-500 text-sm;
+}
+
+ul {
+  @apply flex flex-col gap-1;
+}
+
+.skill-item {
+  @apply flex gap-2 justify-between border rounded-lg items-center p-1;
 }
