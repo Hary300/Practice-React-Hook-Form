@@ -8,7 +8,13 @@ import {
   DynamicSkills,
 } from './lv0';
 import { LoginForm, SimpleRegisterForm } from './lv2';
-import { MaxLength, MinLength, Pattern, RequiredValidation } from './lv3';
+import {
+  MaxLength,
+  MinLength,
+  Pattern,
+  RequiredValidation,
+  Validate,
+} from './lv3';
 
 function App() {
   return (
@@ -31,6 +37,7 @@ function App() {
       <MinLength />
       <MaxLength />
       <Pattern />
+      <Validate />
     </div>
   );
 }
