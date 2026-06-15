@@ -15,6 +15,7 @@ import {
   RequiredValidation,
   Validate,
 } from './lv3';
+import { CrossFieldValidation } from './lv4';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
       <MaxLength />
       <Pattern />
       <Validate />
+
+      {/* Level 4 */}
+      <CrossFieldValidation />
     </div>
   );
 }
