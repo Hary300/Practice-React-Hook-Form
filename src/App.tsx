@@ -8,7 +8,7 @@ import {
   DynamicSkills,
 } from './lv0';
 import { LoginForm, SimpleRegisterForm } from './lv2';
-import { RequiredValidation } from './lv3';
+import { MinLength, RequiredValidation } from './lv3';
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
 
       {/* Level 3 */}
       <RequiredValidation />
+      <MinLength />
     </div>
   );
 }
