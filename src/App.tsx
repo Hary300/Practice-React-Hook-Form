@@ -8,10 +8,12 @@ import {
   DynamicSkills,
 } from './lv0';
 import { LoginForm, SimpleRegisterForm } from './lv2';
+import { RequiredValidation } from './lv3';
 
 function App() {
   return (
     <div className='container'>
+      {/* Level 0 */}
       <StateAndInput />
       <ManyInputs />
       <FormSubmit />
@@ -19,8 +21,13 @@ function App() {
       <ObjectStateForm />
       <ConfirmPassword />
       <DynamicSkills />
+
+      {/* Level 2 */}
       <SimpleRegisterForm />
       <LoginForm />
+
+      {/* Level 3 */}
+      <RequiredValidation />
     </div>
   );
 }
