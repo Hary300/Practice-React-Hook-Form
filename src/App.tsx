@@ -16,6 +16,7 @@ import {
   Validate,
 } from './lv3';
 import { CrossFieldValidation } from './lv4';
+import { FormState } from './lv5';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
 
       {/* Level 4 */}
       <CrossFieldValidation />
+
+      {/* Level 5 */}
+      <FormState />
     </div>
   );
 }

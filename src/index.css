@@ -17,7 +17,7 @@ input {
 }
 
 button {
-  @apply w-full p-2 rounded-lg bg-blue-600 text-white font-semibold cursor-pointer;
+  @apply w-full p-2 rounded-lg bg-blue-600 text-white font-semibold cursor-pointer active:scale-99;
 }
 
 .error-text {
