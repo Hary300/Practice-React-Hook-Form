@@ -7,7 +7,7 @@ import {
   ConfirmPassword,
   DynamicSkills,
 } from './lv0';
-import { SimpleRegisterForm } from './lv2';
+import { LoginForm, SimpleRegisterForm } from './lv2';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
       <ConfirmPassword />
       <DynamicSkills />
       <SimpleRegisterForm />
+      <LoginForm />
     </div>
   );
 }
