@@ -18,6 +18,7 @@ import {
 import { CrossFieldValidation } from './lv4';
 import { FormState } from './lv5';
 import { RegisterForm, ResetLoginForm } from './lv6';
+import { GetValues, SetValue, Trigger } from './lv7';
 
 function App() {
   return (
@@ -51,6 +52,11 @@ function App() {
       {/* Level 6 */}
       <ResetLoginForm />
       <RegisterForm />
+
+      {/* Level 7 */}
+      <SetValue />
+      <GetValues />
+      <Trigger />
     </div>
   );
 }
